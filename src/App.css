@@ -28,3 +28,11 @@ padding: 100px ;
 background-color: #f4f5f9;
 flex:var(--condiv-flex);
 }
+
+nav
+{
+padding:60px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+background: rgb(80,128,179);
+background: linear-gradient(180deg, rgba(80,128,179,1) 50%, rgba(136,150,166,1) 80%);
+}
