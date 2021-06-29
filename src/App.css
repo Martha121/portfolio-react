@@ -93,11 +93,11 @@ h1,h2,h3,h4,p{
 {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: white;
 }
 .social i:hover
 {
-  color: #ffffff;
+  color:black;
 }
 .widecard
 {
