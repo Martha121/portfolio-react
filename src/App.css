@@ -36,3 +36,22 @@ flex:var(--sidebar-flex);
 background: rgb(80,128,179);
 background: linear-gradient(180deg, rgba(80,128,179,1) 50%, rgba(136,150,166,1) 80%);
 }
+
+nav ul
+{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+}
+nav ul li
+{
+  margin:40px;
+}
+
+/* css for active class */
+.active
+{
+font-weight: bolder;
+}
