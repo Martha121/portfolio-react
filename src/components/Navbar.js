@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Navitem from "./Navitem";
+import Sidecodepic from "../img/.Code_side_bar.jpg";
+
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -9,17 +11,16 @@ class Navbar extends Component {
   }
   activeitem = (x) => {
     if (this.state.NavItemActive.length > 0) {
-      document
-        .getElementById(this.state.NavItemActive)
-        .classList.remove("active");
+      document.getElementById(this.state.NavItemActive).classList.remove("active");
     }
-    this.setState({ NavItemId: x }, () => {
+    this.setState({ NavItemActive: x }, () => {
       document.getElementById(this.state.NavItemActive).classList.add("active");
     });
   };
   render() {
     return (
       <nav>
+        <img src={Sidecodepic} className="Sidecodepic"></img>
         <ul>
           <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
           <Navitem
@@ -47,4 +48,5 @@ class Navbar extends Component {
     );
   }
 }
+
 export default Navbar;

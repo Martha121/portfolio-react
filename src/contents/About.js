@@ -6,9 +6,7 @@ class About extends Component {
         <h1 className="subtopic">About Me</h1>
         <h4>Hey there,</h4>
         <h1>I'm Martha Gamez</h1>
-        <h3>
-          Full Stack Web <u>Developer</u> <u>Electrical Engineer</u>
-        </h3>
+        
         <br></br>
         <p>
           I am an Electrical Engineer and a Full Stack Web Developer. 

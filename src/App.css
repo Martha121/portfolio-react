@@ -24,16 +24,23 @@ nav
 {
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
-  background: rgb(18,52,89);
-  background: linear-gradient(180deg, rgba(18,52,89,1) 50%, rgba(84,90,97,1) 80%);
+  background: rgb(35, 35, 36);
+  background: linear-gradient(180deg, rgb(10, 10, 10) 50%, rgba(84,90,97,1) 80%);
 }
 .condiv
 {
   padding: 100px ;
-  background-color: #939497;
+  background-color: white;
   flex:var(--condiv-flex);
 }
-
+.contact
+{
+ display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
 .home
 {
   display: flex;
@@ -44,9 +51,9 @@ nav
 }
 .profilepic
 {
-  border-radius: 50%;
-  width: 200px;
-  margin: 30px;
+  border-radius: 5%;
+  width: 300px;
+  margin: 10px;
 }
 .typingeffect
 {
@@ -69,7 +76,7 @@ nav ul li
 a
 {
   text-decoration: none;
-  color: white;
+  color:orange;
 }
 
 .subtopic
@@ -93,7 +100,7 @@ h1,h2,h3,h4,p{
 {
   padding-right: 30px;
   font-size: 25px;
-  color: white;
+  color:orange;
 }
 .social i:hover
 {
