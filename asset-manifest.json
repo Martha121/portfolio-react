@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/.github.io/portfolio-react/static/css/main.a50161b4.chunk.css",
-    "main.js": "/.github.io/portfolio-react/static/js/main.679db775.chunk.js",
-    "main.js.map": "/.github.io/portfolio-react/static/js/main.679db775.chunk.js.map",
+    "main.js": "/.github.io/portfolio-react/static/js/main.f83a604b.chunk.js",
+    "main.js.map": "/.github.io/portfolio-react/static/js/main.f83a604b.chunk.js.map",
     "runtime-main.js": "/.github.io/portfolio-react/static/js/runtime-main.ad1502d7.js",
     "runtime-main.js.map": "/.github.io/portfolio-react/static/js/runtime-main.ad1502d7.js.map",
     "static/js/2.fedbab3b.chunk.js": "/.github.io/portfolio-react/static/js/2.fedbab3b.chunk.js",
@@ -12,13 +12,12 @@
     "index.html": "/.github.io/portfolio-react/index.html",
     "static/css/main.a50161b4.chunk.css.map": "/.github.io/portfolio-react/static/css/main.a50161b4.chunk.css.map",
     "static/js/2.fedbab3b.chunk.js.LICENSE.txt": "/.github.io/portfolio-react/static/js/2.fedbab3b.chunk.js.LICENSE.txt",
-    "static/media/Code_side_bar.fd5bc04f.jpg": "/.github.io/portfolio-react/static/media/Code_side_bar.fd5bc04f.jpg",
     "static/media/martha_gamez.d6741bc8.jpg": "/.github.io/portfolio-react/static/media/martha_gamez.d6741bc8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad1502d7.js",
     "static/js/2.fedbab3b.chunk.js",
     "static/css/main.a50161b4.chunk.css",
-    "static/js/main.679db775.chunk.js"
+    "static/js/main.f83a604b.chunk.js"
   ]
 }
