@@ -9,7 +9,7 @@ import Skills from "./contents/Skills";
 import Contact from "./contents/Contact";
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="App">
         <Navbar />
         {/* Route for Home.js contents */}
