@@ -10,8 +10,8 @@ class Home extends Component {
         <ReactTypingEffect
           className="typingeffect"
           text={["Hi! I am Martha Gamez.", "I am a fullstack web developer."]}
-          speed={100}
-          eraseDelay={700}
+          speed={50}
+          eraseDelay={50}
         />
         <Social />
       </div>
