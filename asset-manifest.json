@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/.github.io/portfolio-react/static/css/main.a50161b4.chunk.css",
-    "main.js": "/.github.io/portfolio-react/static/js/main.f83a604b.chunk.js",
-    "main.js.map": "/.github.io/portfolio-react/static/js/main.f83a604b.chunk.js.map",
-    "runtime-main.js": "/.github.io/portfolio-react/static/js/runtime-main.ad1502d7.js",
-    "runtime-main.js.map": "/.github.io/portfolio-react/static/js/runtime-main.ad1502d7.js.map",
-    "static/js/2.fedbab3b.chunk.js": "/.github.io/portfolio-react/static/js/2.fedbab3b.chunk.js",
-    "static/js/2.fedbab3b.chunk.js.map": "/.github.io/portfolio-react/static/js/2.fedbab3b.chunk.js.map",
-    "static/js/3.cfa7e549.chunk.js": "/.github.io/portfolio-react/static/js/3.cfa7e549.chunk.js",
-    "static/js/3.cfa7e549.chunk.js.map": "/.github.io/portfolio-react/static/js/3.cfa7e549.chunk.js.map",
-    "index.html": "/.github.io/portfolio-react/index.html",
-    "static/css/main.a50161b4.chunk.css.map": "/.github.io/portfolio-react/static/css/main.a50161b4.chunk.css.map",
-    "static/js/2.fedbab3b.chunk.js.LICENSE.txt": "/.github.io/portfolio-react/static/js/2.fedbab3b.chunk.js.LICENSE.txt",
-    "static/media/martha_gamez.d6741bc8.jpg": "/.github.io/portfolio-react/static/media/martha_gamez.d6741bc8.jpg"
+    "main.css": "/portfolio-react/static/css/main.a50161b4.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.23a84182.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.23a84182.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.a7c4f9b2.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a7c4f9b2.js.map",
+    "static/js/2.fedbab3b.chunk.js": "/portfolio-react/static/js/2.fedbab3b.chunk.js",
+    "static/js/2.fedbab3b.chunk.js.map": "/portfolio-react/static/js/2.fedbab3b.chunk.js.map",
+    "static/js/3.cfa7e549.chunk.js": "/portfolio-react/static/js/3.cfa7e549.chunk.js",
+    "static/js/3.cfa7e549.chunk.js.map": "/portfolio-react/static/js/3.cfa7e549.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.a50161b4.chunk.css.map": "/portfolio-react/static/css/main.a50161b4.chunk.css.map",
+    "static/js/2.fedbab3b.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.fedbab3b.chunk.js.LICENSE.txt",
+    "static/media/martha_gamez.d6741bc8.jpg": "/portfolio-react/static/media/martha_gamez.d6741bc8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad1502d7.js",
+    "static/js/runtime-main.a7c4f9b2.js",
     "static/js/2.fedbab3b.chunk.js",
     "static/css/main.a50161b4.chunk.css",
-    "static/js/main.f83a604b.chunk.js"
+    "static/js/main.23a84182.chunk.js"
   ]
 }
