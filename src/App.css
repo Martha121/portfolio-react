@@ -22,10 +22,33 @@ body{
 }
 nav
 {
+  
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
   background: rgb(35, 35, 36);
   background: linear-gradient(180deg, rgb(10, 10, 10) 50%, rgba(84,90,97,1) 80%);
+}
+
+nav.imageWrapper{
+    position: relative
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
 }
 .condiv
 {
@@ -54,6 +77,12 @@ nav
   border-radius: 5%;
   width: 300px;
   margin: 10px;
+}
+.codesidepic
+{
+  border-radius: 0%;
+  width: 300px;
+  margin: 0px;
 }
 .typingeffect
 {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navitem from "./Navitem";
-import Sidecodepic from "../img/.Code_side_bar.jpg";
+import Codesidepic from "../img/Code_side_bar.jpg";
 
 class Navbar extends Component {
   constructor(props) {
@@ -19,8 +19,7 @@ class Navbar extends Component {
   };
   render() {
     return (
-      <nav>
-        <img src={Sidecodepic} className="Sidecodepic"></img>
+      <nav className="navbar navbar-light navbar-dark imageWrapper">
         <ul>
           <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
           <Navitem
@@ -44,6 +43,7 @@ class Navbar extends Component {
             activec={this.activeitem}
           ></Navitem>
         </ul>
+        <div className="img"></div>
       </nav>
     );
   }
