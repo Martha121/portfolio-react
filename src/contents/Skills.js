@@ -3,9 +3,9 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Languages: ["HTML5", "CSS3", "JavaScript ES6+", "SQL", "REACT JS","NoSQL"],
-      applications: [ "Github", "MongoDB","MySQL"],
-      Tools: [ "Github", "MongoDB","MySQL"],
+      Languages: ["HTML5", "CSS3", "JavaScript ES6+", "SQL","NoSQL","Bootstarp"],
+      applications: [ "Github", "MongoDB","MySQL","VS Code","Git"],
+      Tools: [ "React", "Handlebars","GraphQL","Rest APIs","Node js"],
     };
   };
   
