@@ -7,6 +7,7 @@ import About from "./contents/About";
 import Education from "./contents/Education";
 import Skills from "./contents/Skills";
 import Contact from "./contents/Contact";
+import Projects from "./contents/Projects";
 function App() {
   return (
     <HashRouter basename="/">
@@ -27,6 +28,10 @@ function App() {
         {/* Route for Skills.js contents */}
         <Route path="/skills">
           <Skills />
+        </Route>
+        {/* Route for Projects.js contents */}
+        <Route path="/projects">
+          <Projects />
         </Route>
         {/* Route for Contact.js contents */}
         <Route path="/contact">

@@ -56,6 +56,7 @@ nav.imageWrapper{
   background-color: white;
   flex:var(--condiv-flex);
 }
+
 .contact
 {
  display: flex;
@@ -72,6 +73,7 @@ nav.imageWrapper{
   align-items: center;
   
 }
+
 .profilepic
 {
   border-radius: 5%;
