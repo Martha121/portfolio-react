@@ -103,12 +103,36 @@ nav ul li
 {
   margin:40px;
 }
-
-a
-{
-  text-decoration: none;
+.link {
   color:orange;
 }
+.link:hover{
+  color:white;
+}
+/* unvisited link */
+a:link{
+  text-decoration: none;
+  color: orange;
+}
+
+
+/* visited link */
+a:visited {
+  color:orange;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: orange;
+}
+
+
 
 .subtopic
 {
