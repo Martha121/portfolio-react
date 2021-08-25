@@ -11,7 +11,7 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className=" container condiv skills">
+      <div className=" container condiv skills contact">
         <h1 className=" two subtopic">My Skills</h1>
         <div className= "wrapper">
           <div classname="one">
