@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container,Row,Col } from "react-bootstrap";
 class Skills extends Component {
   constructor(props) {
     super(props);
@@ -11,32 +12,36 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className=" container condiv skills contact">
-        <h1 className=" two subtopic">My Skills</h1>
-        <div className= "wrapper">
-          <div classname="one">
-            <h2> Languages</h2>
-            <ul>
-              {this.state.Languages.map((value) => {
-                return <li>{value}</li>;
-              })}
-            </ul>
+      <div className="container">
+        <div className="row mt-5">
+          <div className="text-center">
+            <h1>Skills</h1>
           </div>
-          <div classname="two">
-            <h2> Applications </h2>
-            <ul>
-              {this.state.applications.map((value) => {
-                return <li>{value}</li>;
-              })}
-            </ul>
+        </div>
+        <div className="row mt-5 ">
+          <div className="section col text-center  ">
+            <b>icon</b>
+            <h1 className="mt-5">Languages</h1>
+            <br />
+            {this.state.Languages.map((value) => {
+              return <h6>{value}</h6>;
+            })}
           </div>
-          <div className="three">
-            <h2> Tools </h2>
-            <ul>
-              {this.state.Tools.map((value) => {
-                return <li>{value}</li>;
-              })}
-            </ul>
+          <div className="section col text-center ">
+            <b>icon 2</b>
+            <h1 className="mt-5">Applications</h1>
+            <br />
+            {this.state.applications.map((value) => {
+              return <h6>{value}</h6>;
+            })}
+          </div>
+          <div className="section  col text-center ">
+            <b>icon 3</b>
+            <h1 className="mt-5">Tools</h1>
+            <br />
+            {this.state.Tools.map((value) => {
+              return <h6>{value}</h6>;
+            })}
           </div>
         </div>
       </div>

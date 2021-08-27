@@ -65,6 +65,22 @@ nav.imageWrapper{
   align-items: center;
   
 }
+.content
+{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding:100px;
+}
+.skillsdiv{
+  
+  padding:70px;
+  align-items: center;
+  justify-content:center;
+}
+
 .home
 {
   display: flex;
@@ -182,6 +198,8 @@ h1,h2,h3,h4,p{
   list-style-type:none;
   margin:30px;
 }
+
+
 
 @media all and (max-width: 450px) {
   :root {
