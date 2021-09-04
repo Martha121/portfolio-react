@@ -4,7 +4,7 @@ import Social from '../components/Social';
 class Contact extends Component {
 render() {
 return (
-  <div className="condiv contact">
+  <div className="condiv contact section">
     <h1 className="subtopic">Contact Me</h1>
     <br></br>
     <br></br>

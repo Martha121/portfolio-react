@@ -61,7 +61,7 @@ const Projects =()=> {
     ); 
   };
     return (
-      <div className="condiv contact">
+      <div className="condiv contact section">
         <h1>Projects</h1>
         <div className="grid">
           {cardInfo.map(renderCard)}

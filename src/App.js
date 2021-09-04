@@ -8,6 +8,7 @@ import Education from "./contents/Education";
 import Skills from "./contents/Skills";
 import Contact from "./contents/Contact";
 import Projects from "./contents/Projects";
+
 function App() {
   return (
     <HashRouter basename="/">

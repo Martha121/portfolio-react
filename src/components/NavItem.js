@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 class Navitem extends Component {
   render() {
     return (
-      <li id={this.props.item}>
+      <li  id={this.props.item}>
         <Link
           to={this.props.tolink}
           onClick={this.props.activec.bind(this, this.props.item)}
-        className="link">
+          className="link"
+        >
           {this.props.item}
         </Link>
       </li>

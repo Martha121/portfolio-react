@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import aboutPic from "../img/about1.jpg";
 class About extends Component {
   render() {
     return (
-      <div className="condiv">
-        <h1 className="subtopic">About Me</h1>
-        <h4>Hey there,</h4>
+      <div className="condiv contact section">
+        <img className="resize_fit_center" src={aboutPic} alt="Martha Gamez"className="photo"></img>
+        
         <h1>I'm Martha Gamez</h1>
         
         <br></br>

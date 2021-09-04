@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Container,Row,Col } from "react-bootstrap";
+import  {BsAppIndicator}  from "react-icons/bs";
+import { BsTools } from "react-icons/bs";
+import { BsCodeSlash } from "react-icons/bs";
 class Skills extends Component {
   constructor(props) {
     super(props);
@@ -12,31 +14,32 @@ class Skills extends Component {
   
   render() {
     return (
-      <div className="container">
+      <div className="container section">
         <div className="row mt-5">
           <div className="text-center">
             <h1>Skills</h1>
           </div>
         </div>
         <div className="row mt-5 ">
-          <div className="section col text-center  ">
-            <b>icon</b>
+          <div className=" col text-center  ">
+            <BsCodeSlash size="50px" color="orange" />
             <h1 className="mt-5">Languages</h1>
             <br />
             {this.state.Languages.map((value) => {
               return <h6>{value}</h6>;
             })}
           </div>
-          <div className="section col text-center ">
-            <b>icon 2</b>
+          <div className=" col text-center ">
+            <BsAppIndicator size="50px" color="orange" />
+
             <h1 className="mt-5">Applications</h1>
             <br />
             {this.state.applications.map((value) => {
               return <h6>{value}</h6>;
             })}
           </div>
-          <div className="section  col text-center ">
-            <b>icon 3</b>
+          <div className=" col text-center ">
+            <BsTools size="50px" color="orange" />
             <h1 className="mt-5">Tools</h1>
             <br />
             {this.state.Tools.map((value) => {

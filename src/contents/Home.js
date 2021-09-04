@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import ReactTypingEffect from "react-typing-effect";
-import profilepic from "../img/martha_gamez.jpg";
+import profilepic from "../img/portada4.jpg";
 import Social from "../components/Social";
 class Home extends Component {
   render() {
     return (
-      <div className="condiv home">
-        <img src={profilepic} alt="Martha Gamez" className="profilepic"></img>
-        <ReactTypingEffect
-          className="typingeffect"
-          text={["Hi! I am Martha Gamez.", "I am a fullstack web developer."]}
-          speed={50}
-          eraseDelay={50}
-        />
+      <div
+        className="parent condiv contact section"
+        style={{
+          backgroundImage: `url(${profilepic})`,
+          backgroundRepeat: "no-repeat",
+          
+        }}
+      >
+        <div class="overlay"></div>
+        <div class="content hometittle">I am Martha Gamez</div>
         <Social />
       </div>
     );
